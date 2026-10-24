@@ -1,0 +1,86 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+/* Загальні стилі та фон */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    line-height: 1.6;
+}
+
+/* Шапка сайту */
+h1 {
+    background: linear-gradient(135deg, #1f2833, #0b0c10);
+    color: #66fcf1;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 3px solid #45a29e;
+    box-shadow: 0 4px 15px rgba(102, 252, 241, 0.2);
+}
+
+/* Навігаційне меню */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1f2833;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+li {
+    margin: 0;
+}
+
+ul li a {
+    display: block;
+    color: #66fcf1;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+ul li a:hover {
+    background-color: #45a29e;
+    color: #0b0c10;
+}
+
+/* Основний вміст та секції */
+h2 {
+    color: #66fcf1;
+    border-left: 4px solid #45a29e;
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+p {
+    padding: 0 20px;
+    max-width: 800px;
+    font-size: 1.1rem;
+}
+
+/* Контактна інформація або футер */
+footer, div:last-of-type {
+    background-color: #1f2833;
+    color: #c5c6c7;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #45a29e;
+}
