@@ -3,7 +3,7 @@ body{
   margin: 0;
   
 }
-/* Загальні стилі та фон */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -13,7 +13,6 @@ body {
     line-height: 1.6;
 }
 
-/* Шапка сайту */
 h1 {
     background: linear-gradient(135deg, #1f2833, #0b0c10);
     color: #66fcf1;
@@ -27,7 +26,7 @@ h1 {
     box-shadow: 0 4px 15px rgba(102, 252, 241, 0.2);
 }
 
-/* Навігаційне меню */
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -59,7 +58,7 @@ ul li a:hover {
     color: #0b0c10;
 }
 
-/* Основний вміст та секції */
+
 h2 {
     color: #66fcf1;
     border-left: 4px solid #45a29e;
@@ -75,7 +74,7 @@ p {
     font-size: 1.1rem;
 }
 
-/* Контактна інформація або футер */
+
 footer, div:last-of-type {
     background-color: #1f2833;
     color: #c5c6c7;
@@ -84,4 +83,3 @@ footer, div:last-of-type {
     margin-top: 50px;
     border-top: 1px solid #45a29e;
 }
-/*Зроби цей сайт красивим 😉*/
